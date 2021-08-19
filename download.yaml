@@ -85,11 +85,58 @@ s
 # CHEBI
 #
 #-
-#  url: http://purl.obolibrary.org/obo/chebi.owl
-#  local_name: chebi.owl
+  url: http://purl.obolibrary.org/obo/chebi.owl
+  local_name: chebi.owl
 #
 # NCBI Taxon
 #
 #-
-#  url: http://purl.obolibrary.org/obo/ncbitaxon.owl
-#  local_name: ncbitaxon.owl
+  url: http://purl.obolibrary.org/obo/ncbitaxon.owl
+  local_name: ncbitaxon.owl
+
+##
+## GO
+  url: http://purl.obolibrary.org/obo/go.json
+  local_name: go.json
+
+
+#
+# PATO
+  url: http://purl.obolibrary.org/obo/pato.json
+  local_name: pato.json
+
+#
+# Mondo
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-
+
+#
+# HPO
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-
+
+#
+# ExO
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-
+
+#
+# ECTO
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-
+
+#
+# NCIT
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-
+
+#
+# Mondo
+  url: http://purl.obolibrary.org/obo/mondo.owl
+  local_name: mondo.json
+#-MAxO
