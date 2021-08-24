@@ -6,13 +6,21 @@ from project_name.transform_utils.transform import Transform
 #from kgx import PandasTransformer, ObographJsonTransformer  # type: ignore
 from kgx.cli.cli_utils import transform
 
+from kg_envpolyreg.utils.robot_utils import *
+
 
 ONTOLOGIES = {
-    #'HpTransform': 'hp.json',
+    'HpTransform': 'hp.json',
     #'GoTransform': 'go-plus.json',
     'NCBITransform':  'ncbitaxon.json',
     'ChebiTransform': 'chebi.json',
-    'EnvoTransform': 'envo.json'
+    'EnvoTransform': 'envo.json',
+    'GoTransform': 'go.json',
+    'MondoTransform':  'mondo.json',
+    'EctoTransform': 'ecto.json',
+    'ExoTransform': 'exo.json',
+    'MaxoTransform': 'maxo.json'
+    #'NCIT'....
 }
 
 
